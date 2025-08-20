@@ -8,17 +8,18 @@ $pgn-color-btn-bg-primary: #6C7C9A;
 
 .btn {
   text-decoration: none;
-  background-color: #6C7C9A;
+  background-color: #6C7C9A !important;
+  background: #6C7C9A !important;
 }
 
 .btn-primary {
-    background-color: #6C7C9A;
-    -pgn-btn-bg: #6C7C9A;
+    background-color: #6C7C9A !important;
+    -pgn-btn-bg: #6C7C9A !important;
 }
 
 .btn-link {
   text-decoration: none;
-  background: #6C7C9A;
+  background: #6C7C9A !important;
 
   &.hover,
   &:hover {
